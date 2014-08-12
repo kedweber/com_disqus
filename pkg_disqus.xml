@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="1.6">
+    <name>Disqus</name>
+    <author>Jasper van Rijbroek</author>
+    <creationDate>Augustus 2014</creationDate>
+    <packagename>disqus</packagename>
+    <version>1.0.0</version>
+    <url>http://www.moyoweb.nl/</url>
+    <packager>Jasper van Rijbroek</packager>
+    <packagerurl>http://www.moyoweb.nl/</packagerurl>
+    <description>Disqus Package</description>
+    <files folder="packages">
+        <file type="component" id="disqus">component</file>
+    </files>
+</extension>

@@ -1,0 +1,17 @@
+{
+    "name": "cta/disqus",
+    "type": "joomlatools-installer",
+    "description": "Disqus Package",
+    "keywords": ["joomla", "moyo"],
+    "homepage": "https://github.com/cta-int/disqus",
+    "authors": [
+        {
+            "name": "Jasper van Rijbroek",
+            "email": "jasper@moyoweb.nl",
+            "homepage": "http://www.moyoweb.nl"
+        }
+    ],
+    "require": {
+        "joomlatools/installer": "*"
+    }
+}
