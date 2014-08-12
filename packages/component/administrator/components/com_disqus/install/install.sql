@@ -11,4 +11,5 @@ CREATE TABLE `jos_disqus_configs` (
   PRIMARY KEY (`disqus_config_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
+-- Preset value to prevent 404 errors. 
 INSERT INTO `jos_disqus_configs` (`disqus_config_id`) VALUES ('1');
