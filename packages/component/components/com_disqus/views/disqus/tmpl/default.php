@@ -4,7 +4,7 @@
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = '<?= $config->shortname; ?>'; // required: replace example with your forum shortname
-    var disqus_identifier= '<?= $config->identifier . ($config->multilingual ? '_' . substr(JFactory::getLanguage()->getTag(), 0, 2) : '') ?>';
+    var disqus_identifier= '<?= $config->identifier . (($config->multilingual && JFactory::getLanguage()->getTag() != 'en-GB') ? '_' . substr(JFactory::getLanguage()->getTag(), 0, 2) : '') ?>';
     var disqus_config = function() {
         this.language = '<?= substr(JFactory::getLanguage()->getTag(), 0, 2); ?>';
     };
