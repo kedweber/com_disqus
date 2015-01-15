@@ -1,4 +1,4 @@
-CREATE TABLE `jos_disqus_configs` (
+CREATE TABLE IF NOT EXISTS `#__disqus_configs` (
   `disqus_config_id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
   `shortname` varchar(255) DEFAULT NULL,
   `multilingual` tinyint(1) NOT NULL,

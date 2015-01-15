@@ -2,13 +2,13 @@
 <extension type="component" version="3.0.0" method="upgrade" overwrite="true">
     <name>Disqus</name>
     <identifier>com:disqus</identifier>
-    <author>Jasper van Rijbroek</author>
+    <author>Moyo Web Architects</author>
     <creationDate>Autgustus 2014</creationDate>
     <copyright>Copyright (C) 2014 Moyo Web Architects and Contributors. (http://www.moyoweb.nl)</copyright>
     <license>GNU GPLv3 - http://www.gnu.org/licenses/gpl.html</license>
     <authorEmail>jasper@moyoweb.nl</authorEmail>
     <authorUrl>www.moyoweb.nl</authorUrl>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <description>Disqus</description>
 
     <install>
