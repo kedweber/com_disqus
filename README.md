@@ -18,8 +18,6 @@ The `com_disqus` component plugs into our CCK as an optional field. If enabled, 
 
 ## Installation
 
-## Installation
-
 ### Composer
 
 Installation is done through composer. In your `composer.json` file, you should add the following lines to the repositories
